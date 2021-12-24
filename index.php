@@ -139,7 +139,6 @@
                             echo "<a href='form-edit.php?id=".$students['id']."'>Edit</a> | ";
                             echo "<a href='hapus.php?id=".$students['id']."'>Hapus</a>";
                             echo "</td>";
-
                             echo "</tr>";
                         }
                     ?>
