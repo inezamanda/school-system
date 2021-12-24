@@ -1,5 +1,9 @@
 <?php
     session_start();
+    //cek apakah sudah login 
+    if (!isset($_SESSION["login"])){
+        header("Location: index.php");
+    }
 ?>
 
 <!doctype html>
