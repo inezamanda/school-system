@@ -1,0 +1,39 @@
+.sign-in-container {
+  right: 0;
+  width: 67%;
+  z-index: 1;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 33%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.overlay {
+  background: linear-gradient(to right, #B8391D, #FDC433);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  position: relative;
+  height: 100%;
+  width: 200%;
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+}
